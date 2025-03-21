@@ -1,0 +1,121 @@
+body {
+    background-color: bisque;
+    font-family: "Outfit","Young Serif",  serif;
+}
+.parent{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.parent h1 {
+    text-transform: capitalize;
+}
+.time {
+    background-color: rgb(177, 133, 219,0.2) ;
+    padding: 12px;
+    border-radius: 8px;
+}
+.time h2 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: darkmagenta;
+}
+.time ul {
+    list-style: none;
+    padding-left: 27px;
+}
+.time li{
+    position: relative;
+    font-weight: bold;
+}
+.time li::before{
+    content: "•";
+    color: darkmagenta;
+    font-size: 20px;
+    position: absolute;
+    top: -3px;
+    left: -12px;
+}
+li{
+    margin-bottom: 10px;
+}
+.ingred h2 {
+    color:sienna;
+}
+.ingred ul{
+    padding-left:36px ;
+}
+.ingred li{
+    position: relative;
+    list-style: none;
+}
+.ingred li::before{
+    content:"•";
+    color:sienna;
+    position: absolute;
+    left: -27px;
+    top: -2px;
+    font-size:20px ;
+}
+
+.inst h2 {
+    color:sienna
+}
+.inst ol{
+    padding-left:25px ;
+}
+.inst li{
+    padding-left: 10px;
+}
+.inst li::marker{
+    color:sienna;
+}
+.head3{
+    color: #494646;
+    font-weight: 700;
+}
+
+.nut h2{
+    color:sienna
+}
+.nut span{
+    display: block;
+}
+.nut table {
+    width: 65%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.nut td {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0px ;
+}
+
+.nut table span {
+    color:sienna ;
+}
+/* .nut tr {
+    border-bottom: 2px solid  ;
+    border-image: linear-gradient(to right,#ccc, #333, #ccc); 
+
+} */
+.nut tr:last-child {
+    border-bottom: none; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right,#ccc, #333, #ccc);
+}
